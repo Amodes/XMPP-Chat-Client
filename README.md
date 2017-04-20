@@ -23,8 +23,8 @@ In Openfire administration, make the following settings:
 * move the project files to www folder
 * in the script.js change the following variables:
 
-```var server``` is the server is the openfire servername (see openfire administration)
+* ```var server``` is the openfire servername (see openfire administration)
 
-```var BOSH_SERVICE ws://[IP of system]:7070/ws/ ```
+* ```var BOSH_SERVICE ws://[IP of system]:7070/ws/ ```
 
 * for easier testing you can add standard users in the ``` (document).ready ```
