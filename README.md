@@ -1,6 +1,6 @@
-# XMPP-Chat-Client Setup and Installation
+# XMPP-Chat Setup and Installation
 
-Here you will find the setup for the XMPP-Chat-Client based on strophe.js and Openfire
+Here you will find the setup for the openfire server and the project files for the XMPP-Chat based on strophe.js and Openfire
 
 ## Getting started
 
@@ -16,7 +16,7 @@ In Openfire administration, make the following settings:
 * Serversettings -> Compressionsettings -> Client compression Policies: Not available
 * Serversettings -> HTTP Binding -> Script Syntax: Enabled  
 * Plugins -> Available Plugins -> Openfire WebSocket Plugin  -> add it (if the plugin is not in pluginlist, it can be manuel downloaded here:
- https://www.igniterealtime.org/projects/openfire/plugins.jsp  and uploaded manually 
+ https://www.igniterealtime.org/projects/openfire/plugins.jsp  and uploaded manually)
 * restart openfire
 
 ## Project Setup
